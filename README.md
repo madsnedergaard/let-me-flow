@@ -4,6 +4,8 @@
 
 ## Software
 
+![screenshot.png](screenshot.png)
+
 - Electron-based app that listens for changes to Firebase db and toggles MacOS do-not-disturb mode
 
 ## Hardware
