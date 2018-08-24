@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Let Me Flow</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+    <style>
+      html {height: 100%}
+      body {
+        height: 100%;
+        background: linear-gradient(45deg, #094686 25%,#E84188 100%) no-repeat;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        -webkit-app-region: drag
+      }
+      section {
+        justify-content: flex-start;
+      }
+      .subtitle {
+        margin-bottom: 0;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+      }
+      h1 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 5em;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0.1em;
+        letter-spacing: 2px;
+      }
+      button {
+        background: transparent;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid rgba(255,255,255,.4);
+        padding: 8px 12px;
+        text-transform: uppercase;
+      }
+      button:focus {
+        background: rgba(255,255,255,.4);
+        outline: none;
+      }
+</style>
+  </head>
+  <body>
+    <section>
+      <h4 class="subtitle">let me</h4>
+      <h1>Flow</h1>
+      <button>...</button>
+    </section>
+    <script>
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
